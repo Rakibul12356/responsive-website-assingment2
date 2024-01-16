@@ -16,7 +16,7 @@ body{
 }*/
 .header-section1{
     margin-bottom: 0%;
-    display: ;
+    display:none ;
 }
 .header-title img{
     margin-top: 0px;
@@ -120,7 +120,7 @@ nav li a {
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
 }
-.btn-primary{
+.btn-primary, .popular-button{
     width: 100px;
     height: 52px;
     border-radius: 8px;
@@ -133,16 +133,44 @@ nav li a {
     font-weight: 400;
     line-height: normal;
 }
+.popular-section{
+    display: flex;
+    margin-top: 20px;
+    padding-right: 630px;
+    gap: 40px;
+    
+}
+.popular-container{
+    padding-right: 30px;
+    border: 2px solid white;
+    width: 550px;
+    height: 694px;
+}
+.popular-heading{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.popular-heading, .popular-description, .popular-list, .populer-description2{
+   
+    padding-bottom: 30px;
+}
+.popular-container-img{
+    border: 2px solid white;
+    width: 540px;
+}
 
 
-
-
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     body{
         margin: 0;
     }
     .banner-container{
-        width: 420px;
+        width: 370px;
     }
     .banner-title{
         font-size: 32px;
@@ -152,5 +180,17 @@ nav li a {
         flex-direction: column;
         padding: 0px;
     }
+    .popular-section{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
+    .popular-container{
+        width: 390px;
+        height: 690px;
+    }
+    .popular-container-img{
+        padding-left: 0px;
+    }
+
 }
 
