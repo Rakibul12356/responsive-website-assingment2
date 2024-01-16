@@ -15,24 +15,29 @@ body{
    width: 1170px;
 }*/
 .header-section1{
-    margin-bottom: 0%;
-    display: flex;
+    
 }
 .header-title img{
     margin-top: 0px;
     align-items: center;
 }
+.nav-ber{
+    display: flex;
+}
 nav{
     display: flex;
-    justify-content: ;
-    /*align-items: center;*/
+    justify-content:space-between ;
+    align-items: center;
+    margin-left: 440px;
+    margin-bottom: 0px;
 }
 nav > ul{
     display: flex;
+    justify-content: center;
 }
 nav li {
     list-style: none;
-    margin-right: 10px;
+    margin-right: 40px;
     font-weight: 500;
     font-size: 1rem;
 }
@@ -513,7 +518,7 @@ line-height: normal;
     .destination-place-name2,
     .destination-place-name3, 
     .card-container,
-    .login-container
+    .login-container,header-title
     {
         flex-direction: column;
         padding: 0px;
@@ -550,7 +555,20 @@ line-height: normal;
     nav{
         flex-direction: column;
         margin-left: 0px;
+     
+        padding: 0;
+        align-items: normal;
     }
+    
+    .nav-ber{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        justify-content:right;}
+        nav ul li{
+            margin-bottom: 10px;
+        }
 
 }
 
