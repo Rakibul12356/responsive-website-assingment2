@@ -437,6 +437,30 @@ line-height: normal;
     transform: rotate(-40deg);
 
 }
+.asia-travel-footer{
+    border: 1px solid white;
+    width: 1440px;
+    border-radius: 10px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 0px 200px;
+}
+.footer-heading{
+    color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+.foot-travel{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 
 
 
@@ -454,7 +478,8 @@ line-height: normal;
      .destination-place6, 
      .destination-place7,
      .newsletter,
-     .discount-img img{
+     .discount-img img,
+     .asia-travel-footer{
         width: 360px;
     }
     .newsletter{
@@ -505,6 +530,9 @@ line-height: normal;
     }
     .destination-description, .choose-description{
         padding: 0px;
+    }
+    .asia-travel-footer{
+        padding: 0px 10px;
     }
 
 }
