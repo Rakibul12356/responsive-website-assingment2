@@ -384,6 +384,59 @@ line-height: normal;
     margin-top: 20px;
     margin-left: 270px;    
 }
+.login-container{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.newsletter{
+    border: 1px solid #FF5400;
+    border-radius: 40px;
+    width: 340px;
+    height: 340px;
+    padding: 60px;
+}
+
+
+.descount-badge{
+    width: 250px;
+    height: 92px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Asia{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.Save{
+    padding-top: 0px;
+}
+.loginfrom input{
+    border: none;
+    width: 360px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
+}
+.discount-img img{
+    width: 630px;
+    height: 440px;
+}
+.descount-badge{
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+    transform: rotate(-40deg);
+
+}
 
 
 
@@ -392,9 +445,6 @@ line-height: normal;
         margin: 0;
     }
      .destination-heading,
-     .card-container1,
-     .card-container2,
-     .card-container3, 
      .choose-heading, 
      .destination-place1, 
      .destination-place2, 
@@ -402,13 +452,24 @@ line-height: normal;
      .destination-place4,
      .banner-container, 
      .destination-place6, 
-     .destination-place7,{
+     .destination-place7,
+     .newsletter,
+     .discount-img img{
         width: 360px;
+    }
+    .newsletter{
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .banner-title{
         font-size: 32px;
         padding-top: 30px;
     }
+    .descount-badge{
+        position: relative;
+        bottom: 200px;
+        left: 110px;
+        transform: rotate(-40deg);}
     .where-you-go,
     .banner-title,
     .banner-description,
@@ -416,7 +477,8 @@ line-height: normal;
     .destination-place-name,
     .destination-place-name2,
     .destination-place-name3, 
-    .card-container
+    .card-container,
+    .login-container
     {
         flex-direction: column;
         padding: 0px;
@@ -425,6 +487,10 @@ line-height: normal;
         margin-left: 0px;
         width: 360px;
     }
+    .card-container1,
+     .card-container2{
+        width: 360px;
+     }
     .popular-section{
         display: grid;
         grid-template-columns: repeat(1fr);
