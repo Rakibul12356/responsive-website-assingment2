@@ -327,10 +327,63 @@ line-height: normal;
     line-height: normal;
     padding: 100px 130px;        
 }
+.choose-heading{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 1170px;
+    text-align: center;
+    margin-top: 20px;
+}
+.choose-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 0px;
+}
+.choose-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 200px;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+}
+.card-container1{
+    width: 570px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-container-icon{
+    width: 64px;
+}
 
-
-
-
+.card-container2{
+    width: 570px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);    
+}
+.card-container-heading{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.card-container3{
+    width: 570px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 20px;
+    margin-left: 270px;    
+}
 
 
 
@@ -339,22 +392,38 @@ line-height: normal;
         margin: 0;
     }
      .destination-heading,
+     .card-container1,
+     .card-container2,
+     .card-container3, 
+     .choose-heading, 
      .destination-place1, 
      .destination-place2, 
      .destination-place3, 
      .destination-place4,
      .banner-container, 
      .destination-place6, 
-     .destination-place7{
+     .destination-place7,{
         width: 360px;
     }
     .banner-title{
         font-size: 32px;
         padding-top: 30px;
     }
-    .where-you-go, .banner-title, .banner-description, .banner-input-section, .destination-place-name, .destination-place-name2, .destination-place-name3{
+    .where-you-go,
+    .banner-title,
+    .banner-description,
+    .banner-input-section,
+    .destination-place-name,
+    .destination-place-name2,
+    .destination-place-name3, 
+    .card-container
+    {
         flex-direction: column;
         padding: 0px;
+    }
+    .card-container3{
+        margin-left: 0px;
+        width: 360px;
     }
     .popular-section{
         display: grid;
@@ -368,7 +437,7 @@ line-height: normal;
         width: 350px;
         margin: 0px 10px;
     }
-    .destination-description{
+    .destination-description, .choose-description{
         padding: 0px;
     }
 
