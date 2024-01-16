@@ -11,15 +11,16 @@ body{
     margin: 50px;
 }
 /*header section styles*/
-header{
+/*header{
    width: 1170px;
-}
+}*/
 .header-section1{
     margin-bottom: 0%;
-    display: none;
+    display: ;
 }
 .header-title img{
     margin-top: 0px;
+    align-items: center;
 }
 nav{
     display: flex;
@@ -45,6 +46,7 @@ nav li a {
 /*banner section*/
 .banner-container{
     margin-top: 0px;
+    width: 1170px;
     height: 500px;
     border-radius: 26px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -136,8 +138,17 @@ nav li a {
 
 
 @media screen and (max-width:576px) {
-    
-    .where-you-go{
+    body{
+        margin: 0;
+    }
+    .banner-container{
+        width: 420px;
+    }
+    .banner-title{
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    .where-you-go, .banner-title, .banner-description, .banner-input-section{
         flex-direction: column;
         padding: 0px;
     }
