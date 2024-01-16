@@ -223,20 +223,136 @@ line-height: normal;
     line-height: normal;  
     padding: 110px 200px;  
 }
+.destination-place-name2{
+    display: flex;
+    gap:35px;
+}
+.destination-place3{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    background: url('./Images/Rectangle\ 6.png');    
+}
+.Srilanka{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 100px 100px;  
+}
+.destination-place4{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    background: url('./Images/Rectangle\ 7.png');
+}
+.North-America{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 120px 100px;
+}
+
+.destination-place5{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    background: url('./Images/Rectangle\ 9.png');
+
+}
+.Kashmir{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 100px 50px;
+}
+.destination-place-name3{
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+}
+.destination-place6{
+    border: 2px solid white;
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url('./Images/Rectangle\ 11.png');
+}
+.Bangladesh{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 100px 130px;        
+}
+.destination-place7{
+    border: 2px solid white;
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url('./Images/Rectangle\ 10.png');
+}
+.Bandarban{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 100px 130px;        
+}
+
+
+
+
+
 
 
 @media screen and (max-width:600px) {
     body{
         margin: 0;
     }
-    .banner-container, .destination-heading, .destination-place1, .destination-place2{
-        width: 370px;
+     .destination-heading,
+     .destination-place1, 
+     .destination-place2, 
+     .destination-place3, 
+     .destination-place4,
+     .banner-container, 
+     .destination-place6, 
+     .destination-place7{
+        width: 360px;
     }
     .banner-title{
         font-size: 32px;
         padding-top: 30px;
     }
-    .where-you-go, .banner-title, .banner-description, .banner-input-section, .destination-place-name{
+    .where-you-go, .banner-title, .banner-description, .banner-input-section, .destination-place-name, .destination-place-name2, .destination-place-name3{
         flex-direction: column;
         padding: 0px;
     }
@@ -245,7 +361,7 @@ line-height: normal;
         grid-template-columns: repeat(1fr);
     }
     .popular-container{
-        width: 390px;
+        width: 370px;
         height: 690px;
     }
     .popular-container-img img{
