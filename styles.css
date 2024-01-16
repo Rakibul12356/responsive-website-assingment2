@@ -163,20 +163,80 @@ line-height: normal;
     border: 2px solid white;
     width: 540px;
 }
+.destination-heading{
+    border: 2px solid white;
+    width: 1170px;
+    text-align: center;
+}
+.destination-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 0px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 240px;
+}
+.destination-place-name{
+    display: flex;
+    gap:40px;
+}
+.destination-place1{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url('./Images/Rectangle\ 5.png');
+   
+}
+.Maldives{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;  
+    padding: 110px 200px;  
+}
+.destination-place2{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;  
+    background: url('./Images/Rectangle\ 8.png');  
+}
+.indonesia{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;  
+    padding: 110px 200px;  
+}
 
 
 @media screen and (max-width:600px) {
     body{
         margin: 0;
     }
-    .banner-container{
+    .banner-container, .destination-heading, .destination-place1, .destination-place2{
         width: 370px;
     }
     .banner-title{
         font-size: 32px;
         padding-top: 30px;
     }
-    .where-you-go, .banner-title, .banner-description, .banner-input-section{
+    .where-you-go, .banner-title, .banner-description, .banner-input-section, .destination-place-name{
         flex-direction: column;
         padding: 0px;
     }
@@ -188,8 +248,12 @@ line-height: normal;
         width: 390px;
         height: 690px;
     }
-    .popular-container-img{
-        padding-left: 0px;
+    .popular-container-img img{
+        width: 350px;
+        margin: 0px 10px;
+    }
+    .destination-description{
+        padding: 0px;
     }
 
 }
